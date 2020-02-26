@@ -1,8 +1,11 @@
 # GetElsevier
-Elsevier论文爬虫，入门练手项目
-## 项目主要内容
-根据Elsevier开放数据库，爬取论文标题、摘要等信息，对其进行基础的文本分析。
-## 爬虫介绍
+This is a beginner program in getting elsevier opensource papers.
+
+## Motivation
+2019ncov happened unexpectedly in Wuhan, China. This program is built for preserving some of 2019ncov correlated papers.
+
+## Introduction
+Crawling titles, abstracts, authors, keywords and doi from elsevier's opensource website, and building a database using Mirosoft Azure Cognitive Cloud Search. Also implementing some basic text analysis.
+根据Elsevier开放数据库，爬取论文标题、摘要等信息，对其进行数据库的构造，并进行基础的文本分析。
+Cautions: This program is kind of ineffective,  and the crawling speed is still slow.
 爬虫代码运行速度较慢，且存在很多效率较低的问题，算是一个入门级的爬虫代码。
-## 文本分析
-项目中的文本分析任务主要针对情感分析、关键词提取、词云形成、文本聚类等等。可以搭配Microsoft的`Power BI`平台或者`Azure`认知服务API实现。
